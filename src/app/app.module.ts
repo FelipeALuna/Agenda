@@ -9,11 +9,13 @@ import { NavComponent } from './components/nav/nav.component';
 import {MatIconModule } from "@angular/material/icon";
 import { ContactComponent } from './components/contact/contact.component'
 import {MatButtonModule} from '@angular/material/button';
+import { ContactListComponent } from './components/contact-list/contact-list.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    ContactComponent
+    ContactComponent,
+    ContactListComponent
   ],
   imports: [
     BrowserModule,
